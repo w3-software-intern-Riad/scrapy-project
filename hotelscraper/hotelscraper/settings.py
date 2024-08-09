@@ -22,7 +22,7 @@ ROBOTSTXT_OBEY = False
 # settings.py
 
 # Enable Splash
-SPLASH_URL = 'http://0.0.0.0:8050'
+
 
 
 
@@ -30,24 +30,11 @@ SPLASH_URL = 'http://0.0.0.0:8050'
 # Add Scrapy-Splash settings
 
 
-DOWNLOADER_MIDDLEWARES = {
-    'scrapy_splash.SplashCookiesMiddleware': 723,
-    'scrapy_splash.SplashMiddleware': 725,
-    'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
-}
-
-SPIDER_MIDDLEWARES = {
-    'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
-}
-
-DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
-
 # Optional: set the user-agent to avoid being blocked
 
 
 # Configure Scrapy's request delay and download timeout
-DOWNLOAD_DELAY = 2
-DOWNLOAD_TIMEOUT = 180
+
 
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
