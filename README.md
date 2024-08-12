@@ -59,7 +59,7 @@ pip install -r requirement.txt
 
 ```
 ### Setup database connection 
-```change the connection string in model.py```
+```change the connection string in .env file```
 ### How to Start the Project
 ```bash
 cd hotelscraper
