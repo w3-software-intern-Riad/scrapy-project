@@ -65,7 +65,7 @@ pip install -r requirement.txt
 cd hotelscraper
 scrapy crawl <your_spider_name>
 ```
-### Important note
+# Important note
 ``` If the data is not successfully retrieved during the initial run, please initiate the crawl again```
 ### Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
