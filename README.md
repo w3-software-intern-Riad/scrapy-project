@@ -55,7 +55,7 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
 ### Install the Required Packages
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 
 ```
 ### Setup database connection 
